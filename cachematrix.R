@@ -54,17 +54,7 @@ x<-matrix(1:4,2,2)
 m_inverse$set(x)
 m_inverse$get()
 
-#Return empty for inverse
-m_inverse$getinverse()
-
-#Set the matrix for inverse.
-m_inverse$setinverse(x)
-
-#Get the inverse matrix
-m_inverse$getinverse()
-
-
-#Get cached data
+#Get cached data or calculate the inverse
 cacheSolve(m_inverse)
 
 
